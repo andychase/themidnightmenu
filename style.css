@@ -1,0 +1,99 @@
+html {
+    background-color: black;
+}
+
+html, body {
+    margin, padding: 0px;
+    
+    color: white;
+}
+body {
+    width: 420px;
+    margin: 0px auto 0px auto;
+}
+
+h2, h1 {
+    margin: 0px;
+    font-size: 32pt;
+    text-align: center;
+    clear: both;
+}
+h1 {
+    font-size: 42pt;
+}
+
+h1:hover {
+    text-shadow: white 0px 0px 4px;
+}
+a {
+    color: white;
+}
+a:hover {
+    background-color: grey;
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+
+}
+ul li {
+    list-style: none;
+    font-size: 24pt;
+}
+
+ul li ul {
+    padding-left: 40px;
+}
+sup {
+    text-decoration: underline;
+    padding-left: 1px;
+    font-size: 15pt;
+    vertical-align: 10px;
+}
+.right li ul {
+    padding-left: 265px;
+}
+
+.left {
+    float:left;
+    margin-right: 50px;
+    padding-bottom: 15px;
+}
+.right {
+    padding-top: 23px;
+}
+
+input[type=text], textarea {
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+.add {
+    text-decoration: none;
+    padding: 2px;
+}
+.dropdown {
+    text-decoration: none;
+}
+.clearbutton {
+    text-decoration: none;
+    padding: 3px;
+    font-family: sans-serif;
+}
+
+.Suggest_an_item{
+    
+}
+
+.stars {
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#pn {
+    text-decoration:line-through;
+}
